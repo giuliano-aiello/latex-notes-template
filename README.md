@@ -1,10 +1,9 @@
-# LaTeX Template
+# LaTeX notes template
 
 ## Description
 
-A simple macOS LaTeX project template to start writing notes.\
+A simple macOS LaTeX project template to start writing notes with embedded apps like Inkscape.\
 This has been built in order to use a local TeX distribution and not online tools, so that one could manage his whole LaTeX project.\
-The TeX configuration setup to develop the project was hostile and clearly required some studies.
 
 ## Installation
 
