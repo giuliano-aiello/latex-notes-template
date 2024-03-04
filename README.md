@@ -55,6 +55,8 @@ Ensure the following project structure is in place.
 |-- render.sh
 ```
 
+Please specify the location of your Inkscape installation in the `\InkscapePath` command.
+
 Run `render.sh main.tex`. Open your `main.pdf` file.\
 The script that was just executed performs the following steps:
 
