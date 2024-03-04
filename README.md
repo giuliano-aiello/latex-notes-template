@@ -46,9 +46,9 @@ Ensure the following project structure is in place.
 |-- bibliography.bib
 |-- chapter
 |   |-- chapter1
-|    |    |-- prolusion.tex
+|   |   |-- prolusion.tex
 |-- figure
-|    |-- UniNa_logo.svg
+|   |-- UniNa_logo.svg
 |-- main.tex
 |-- mypackage.sty
 |-- README.md
