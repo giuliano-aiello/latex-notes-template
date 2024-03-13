@@ -7,6 +7,8 @@ This has been built in order to use a local TeX distribution and not online tool
 
 ## Installation
 
+**Requirements: Inkscape has to be installed on the system.**
+
 Built with MacTeX.
 
 tex --version\
@@ -53,8 +55,6 @@ Ensure the following project structure is in place.
 |-- README.md
 |-- render.sh
 ```
-
-Please specify the location of your Inkscape installation in the `\InkscapePath` command, in `mypackage.sty`.
 
 Run `render.sh main.tex`. Open your `main.pdf` file.\
 The script that was just executed performs the following steps:
