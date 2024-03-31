@@ -1,15 +1,27 @@
 #!/bin/zsh
 
+execute_controlled_command() {
+  "$@" &
+  local background_pid=$!
+  wait $background_pid
+
+  local exit_status=$?
+  if [ $exit_status -ne 0 ]; then
+    echo "Error: exited with non-zero status $exit_status"
+    exit
+  fi
+}
+
 if [ $# -ne 1 ]
 then
-  echo "Usage: ./render.sh main.tex"
+  echo "Usage: ./render.sh statistical-machine-learning.tex"
   exit 1
 fi
 
 filename=$(echo "$1" | sed 's/\..*//')
 
-pdflatex --shell-escape --file-line-error --synctex=1 $1
-biber $filename
-makeglossaries $filename
-pdflatex --shell-escape --file-line-error --synctex=1 $1
-pdflatex --shell-escape --file-line-error --synctex=1 $1
+execute_controlled_command pdflatex --shell-escape --file-line-error --synctex=1 $1
+execute_controlled_command biber $filename
+execute_controlled_command makeglossaries $filename
+execute_controlled_command pdflatex --shell-escape --file-line-error --synctex=1 $1
+execute_controlled_command pdflatex --shell-escape --file-line-error --synctex=1 $1
