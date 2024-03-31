@@ -14,7 +14,7 @@ execute_controlled_command() {
 
 if [ $# -ne 1 ]
 then
-  echo "Usage: ./render.sh statistical-machine-learning.tex"
+  echo "Usage: ./render.sh main.tex"
   exit 1
 fi
 
