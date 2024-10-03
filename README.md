@@ -77,3 +77,7 @@ Typeset `main.tex` again twice.
 ## Credits
 
 Authored by [Giuliano Aiello](https://github.com/FueledBy-Pizza).
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=FueledBy-Pizza/latex-notes-template&type=Date)](https://star-history.com/#FueledBy-Pizza/latex-notes-template&Date)
