@@ -78,6 +78,6 @@ Typeset `main.tex` again twice.
 
 Authored by [Giuliano Aiello](https://github.com/FueledBy-Pizza).
 
-## Star History
+#### _Slow like molasses_ <br> - John "The Hangman" Ruth
 
 [![Star History Chart](https://api.star-history.com/svg?repos=FueledBy-Pizza/latex-notes-template&type=Date)](https://star-history.com/#FueledBy-Pizza/latex-notes-template&Date)
