@@ -1,5 +1,7 @@
 # LaTeX notes template
 
+[![License](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
+
 ## Description
 
 A simple macOS LaTeX project template to start writing notes with embedded apps like Inkscape.\
