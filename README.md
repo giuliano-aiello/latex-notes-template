@@ -55,10 +55,10 @@ Ensure the following project structure is in place.
 |-- main.tex
 |-- mypackage.sty
 |-- README.md
-|-- render.sh
+|-- typeset.sh
 ```
 
-Run `render.sh main.tex`. Open your `main.pdf` file.\
+Run `typeset.sh main.tex`. Open your `main.pdf` file.\
 The script that was just executed performs the following steps:
 
 ### Svg
