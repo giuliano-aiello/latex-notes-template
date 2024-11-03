@@ -14,7 +14,7 @@ execute_controlled_command() {
 
 if [ $# -ne 1 ]
 then
-  echo "Usage: ./render.sh main.tex"
+  echo "Usage: $0 <main.tex>"
   exit 1
 fi
 
