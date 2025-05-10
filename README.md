@@ -78,8 +78,8 @@ Typeset `main.tex` again twice.
 
 ## Credits
 
-Authored by [Giuliano Aiello](https://github.com/FueledBy-Pizza).
+Authored by [Giuliano Aiello](https://github.com/giuliano-aiello).
 
 #### _Slow like molasses_ <br> - John "The Hangman" Ruth
 
-[![Star History Chart](https://api.star-history.com/svg?repos=FueledBy-Pizza/latex-notes-template&type=Date)](https://star-history.com/#FueledBy-Pizza/latex-notes-template&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=giuliano-aiello/latex-notes-template&type=Date)](https://star-history.com/#giuliano-aiello/latex-notes-template&Date)
